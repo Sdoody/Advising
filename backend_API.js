@@ -17,7 +17,7 @@ const port = 8081;
 const db = mysql.createConnection({
     host: 'localhost',      //host of the database 
     user:  'root',          //username of database 
-    password: 'Ginger100',  //password for the database 
+    password: '',  //password for the database 
     database: 'cs492s19'    //name of database
 });
 
